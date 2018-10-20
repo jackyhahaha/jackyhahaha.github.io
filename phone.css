@@ -1,0 +1,255 @@
+
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after { clear:both;}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+.phonehide{
+    display: none;
+}
+.nav{
+    width: 100%;
+}
+.menu{float: left;}
+.search{float: right;
+margin-right: 7px;}
+.buy{float: right;}
+
+.nav p{margin-top: 3px;
+    display: inline-block ;}
+.nav{text-align: center;
+height: 50px;
+    padding: 10px;}
+.lunbo{
+    position: relative;
+    background-color: #333333;
+    width: 100%;
+    height: 840px;
+}
+.circleleft{
+    cursor: pointer;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    position: absolute;
+    border-radius:25px ;
+    z-index: 2;
+    text-align: center;
+top: 50%;
+    transform: translate(0,-50%);
+}
+.circleright{
+    cursor: pointer;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    position: absolute;
+    border-radius:25px ;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%,-50%);
+}
+.circleleft span{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.circleleft:hover{opacity: 0.5;}
+.circleright:hover{opacity: 0.5;}
+.circleright span{
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+}
+.point1,.point2{
+    width: 10px;
+    height: 10px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+.point1{
+    position: absolute;
+    top: 825px;
+    left: 47%;
+}
+.point2{
+    position: absolute;
+    top: 825px;
+    left: 49%;
+}
+#text1{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0%);
+    margin-top: 10px;
+}
+#text2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.lunbo button{
+    position: absolute;
+    top:750px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 155px;
+    height: 60px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main div{
+
+    display: inline-block;
+    width: 45%;
+    height: 45%;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.main{
+
+    width:auto;
+    margin: 20px auto;
+    height:auto;
+}
+.main1{
+    position: relative;
+    border: 2px solid black;
+    background-image: url(img/computer4.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 773px;
+}
+.main1 h1{
+    position: absolute;
+    color: white;
+    top:520px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.main1 p{
+    top:580px;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    font-size: 18px;
+    color: white;
+}
+.main1 button{
+    top:630px;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    width:150px;
+    font-weight: bold;
+    font-size: 19px;
+    height: 50px;
+}
+.h1next{
+    width: 100%;
+    height: auto;
+}
+.h1next div{
+    margin: 10px 0 0 45px;
+    width: 40%;
+    height:auto;
+    display: inline-block;
+}
+.focus{
+    vertical-align: middle;
+    margin-top: 50px;
+    display: inline-block;
+    font-size: 25px;
+}
+.h11{
+    margin-top: 20px;
+}
+.h1next{
+    margin-top: 20px;
+}
+.h1next img{
+    margin-top: 8px;
+}
+.lunbo{
+    background-image: url(img/computer4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon{
+   vertical-align: middle;
+    margin-left: 20px;
+    margin-top: 50px;}
+.finalfooter{
+    position: relative;
+    padding-bottom:180px ;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 50px;
+}
+.finalfooter ul{
+    margin-left: 60px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.finalfooter li{
+    margin-top: 20px;
+
+}
+.finalfooter li:nth-child(1){
+    font-weight: bold;
+    font-size: 25px;
+}
+.ul1 li:nth-child(2){
+    margin-top: 50px;
+}
+
+.footerp{
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform:translate(-53%,0);
+    width: 90%;
+
+}
+.footerp img{
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.footerp li{
+    float: right;
+    margin-left: 15px;
+}
+.footerp li:nth-child(1){
+    font-size: 15px;
+    vertical-align: middle;
+    float: left;
+}
+.footerp li:nth-child(2){
+    font-weight: bold;
+
+}
